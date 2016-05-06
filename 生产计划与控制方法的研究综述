@@ -1,0 +1,114 @@
+
+DOI：10.3901/JME.20**.**.***
+#生产计划与控制方法的研究综述*
+ 文 波 
+(北京航空航天大学  北京  100191)
+
+摘要：生产计划是关于企业生产运作系统总体方面的计划，是企业在计划期应达到的产品品种、质量、产量和产值等生产任务的计划和对产品生产进度的安排。它反映的并非某几个生产岗位或某一条生产线的生产活动，也并非产品生产的细节问题以及一些具体的机器设备、人力和其他生产资源的使用安排问题，而是指导企业计划期生产活动的纲领性方案。传统的生产管理模式在计划层面往往表现得比较粗糙，由于各种生产统计信息不够准确，各类产品之间的工艺差异较大，工艺稳定性也不好，经常导致生产安排具有盲目性，尤其是在生产任务繁杂紧急或者临时状况突发的情况下，生产控制能力越发有限，直接造成生产任务拖期，生产效率下降。而在现如今的市场环境下，传统的生产计划与控制方法已经无法适应面向订单的多品种小批量的航空装配产品的生产需求了，需要更先进更有效的管理思想来指导生产计划的制定与控制。按订单装配ATO、物料需求计划MRP和精益生产JIT等新的思想随着时代与时俱进，在和各类制造业进行融合过程中不断完善其核心思想，得到了不断的发展。
+关键词：生产计划  按订单装配  物料需求计划  精益生产 
+中图分类号：TG156
+
+An Overview of Production Planning and Control Method
+
+WEN Bo
+(Beihang University, Beijing 100191)
+
+Abstract：Production planning is about the overall production and operation plans, the enterprises must be observed during the planning period of product variety, quality, yield and output value of production plan and the arrangement on the production progress. It reflects not a few production jobs or a production line of production activities, also not product details and some concrete machinery and equipment, manpower and other resources in the production of the use of arrangement, but to guide enterprise planning production activities of the programmatic scheme. The traditional mode of production and management at the program level often behave more rough, due to a variety of statistical information production is not accurate enough, the technological differences between all kinds of products are larger, process stability is not good, often leading to production arrangement with blindness, especially in the production task numerous miscellaneous emergency or temporary emergency and ability to produce control even more limited, directly caused the production task tardiness and decrease the production efficiency. And in today's market environment, the traditional production plan and control methods has been unable to adapt to the order oriented multi variety and small batch of aviation product assembly production demand, need more advanced more effective management ideas to guide the formulation and control of the production plan. ATO, MRP and JIT and other new ideas with the times, and all kinds of manufacturing industry in the process of continuous improvement of its core ideas, and has been continuously developing.
+Key words：Production plan  ATO  MRP  JIT
+
+ 
+0  前言
+在德国提出了“工业4.0”之后，我们国家也相应的提出了“中国制造2025”等计划，在这些因素的推动下，使得生产计划与控制方法的研究成为了当下科学界和工程学界一个热门的研究课题。
+同时，伴随着社会的发展，生产模式对制造业的影响越来越强，特别是近40年来，发达国家先后提出先进制造系统的研究计划，提出如智能制造、大规模定制、可持续制造等一系列新的制造模式，尝试突破以批量生产为主流的生产模式，建立国家工业生产的相对竞争优势。
+制造系统的计划与控制是制造企业运作的基本部分，是实现制造目的的物理过程，也是现代制造技术发展的一个重要方面。制造系统的计划与控制包括了生产计划制定、制造过程控制、制造质量保证、系统运行保障等多个方面。国内外学者在这些方面进行了深入研究，取得了一定成绩。
+1  按订单装配的研究
+按订单装配（ATO）是大规模定制按照客户订单分离点（CODP）分成的四种类型之一。它将CODP定义在部件层面，因而在满足客户多样化定制方面受到一定的约束，但是由于库存中持有足够数量的零部件，使得装配产品的交货周期大大缩短，企业能够根据实际情况装配提前期较长或者产能明显不足的关键部件进行预投产，一旦装配订单下达，企业便能迅速组织装配生产，以大批量生产的制造成本完成定制化的生产[1]。当然，这也同时要求生产计划人员能够合理地控制库存水平，减少不必要的浪费。
+目前针对ATO系统的研究主要集中在库存和生产控制策略两个方面。而在ATO系统的实施过程中，国内外学者普遍都注意到了通用件对于整个生产系统结构的改善作用，它不仅能简化作业和控制过程，同时能够很好地应对客户订单的不确定性，稳定的品质还能保证新产品的研发效率和质量，此外通用件还能使得售后维修服务更加集中和专业化[2]。史晶晶[3]研究了在不同约束和不同产品结构的前提下，零部件库存数量是如何影响整个车间生产效益的，尤其是在需要考虑通用件分配策略的情况下。国外学者更专注于理论探索，讲究从模型出发，利用数学工具得出较为精确的结果。内布拉斯加林肯大学工业与管理系统工程的Mohebbi和Choobineh[4]通过仿真数据的方差分析，在一个需求服从随机分布的两层BOM产品中，对比通用零部件对于整个物料需求计划的影响，最终得出通用件的使用可以带来更大的效益。印度班加罗尔管理学院的Janat Shah，Balram Avittathur[5]研究了多周期情况下客户订单中有关于可取消和可替代的多产品库存问题，并给出了相应的数学模型和在一定约束条件下该模型求解的启发式算法。
+ATO系统的核心在于订单分离点的选取上，而这又与产品通用件息息相关。未来ATO系统的发展方向还将会围绕如何最大限度地利用通用件而展开，而同时更多更为精确的数学模型的引入将能够帮助管理者更加准确合理地选择订单分离点。
+2  制造资源计划的研究
+物料需求计划（MRP）是20世纪70时年代提出的，是目前世界上普遍采用的一种离散型制造业的企业管理模式[6]。MRP的提出是基于无限产能假设的，它致力于帮助计划人员安排生产排程，最大限度地减少资源浪费，减少制造成本。它试图在主生产计划确定的前提下，根据产品结构、工艺信息和库存数量等结合计算机编制的算法，较为准确地算出零件的开工时间和完工时间。MRPⅡ（Manufacturing Resources Planning）是20世纪80年代在MRP的基础上发展而来的。它在MRP的基础之上引入了财务信息，从而将资金流、物流和信息流整合成为一个闭环的有机整体，强调利用周密的计划来指导生产，把生产不确定性带来的损失降至最低。
+然而，MRP的生产管理模式有着自身的弱点：在进行物料需求计算的时候，MRP过多依赖于一些影响生产的参数，如生产批量和提前期等。这些因素经常发生变动，尤其是在离散生产制造环境中，这样往往导致生产作业的计划会与原本的实际情况差距较大，计划可执行性也大大降低了。除此之外，由于MRP缺乏对能力约束的充分考虑，因而会在生产批量上产生一定的误差，这样容易导致大量的在制品和库存堆积，造成不必要的浪费。针对MRP以上的缺点，许多学者纷纷采用了改良措施，并进行了大量的实践研究。例如姜思杰、徐晓辉等[7]试图通过在MRP计划中引入网络图，以此来描述生产计划控制模式。潘家招等[8]提出了根据日产量调整批量和提前期的方法。郝刚等[9]则利用神经网络模型，对影响提前期的因素进行分析，对提前期进行动态地计算等。这些方法都取得了一定的效果，但并没有从根本上解决MRP的固定提前期与实际相脱节的问题，未来可以借助一些数学模型和动态仿真工具来估算出一个相对准确的批量提前期，然后以此为基准展开多层次物料需求计划。
+
+3  准时化生产方式的研究
+精益生产JIT（Just In Time）最早起源于日本，由丰田汽车公司的大野耐一（1983）在《丰田生产方式》一书中最早提出来。随后，美国学者James P. Womack 和 DanielT.Jones[10]在《改变世界的机器》一书中，把丰田生产方式称之为精益生产，不仅对其管理思想的特点进行了描述，而且还详细总结出精益思想的内涵，进一步发展了精益理论。而随着Richard Lamming[11]在1993年提出了“精益供应”的概念，人们逐渐认识到精益供应关系作为一种全新的伙伴合作关系能够很有效的辅助生产物资供应。
+国内外针对JIT的研究十分广泛，主要集中在对JIT定义与哲理研究[12][13]：对JIT进行科学的归纳总结，为其它方面研究做指导。对JIT模型研究[14][15]对JIT的系统进行数学建模，对其理论和性能进行实验和分析，为JIT的应用于开发提供理论依据。对JIT应用与开发研究[16]：从消除浪费、员工参与决策、供应商参与和全面质量管理四个方面研究JIT理论的具体应用方法。对JIT实施研究[17]：定性研究影响JIT成功实施的因素。对JIT比较与发展研究[18]：在对几种生产管理理论对比的基础上进行方法改进。
+
+4  先进生产计划与调度
+现代制造企业需要面对无法预料的需求行为和制造环境的不确定性、解决产品生命周期问题并实现敏捷制造，适应由单个企业向供应链企业生产模式的转变。先进生产计划和调度(Advanced planning and scheduling，APS)为这些问题的解决提供了一条可行的途径[19]。
+先进生产计划与调度的关键是涵盖供应链管
+理的企业多层生产计划与运作的综合集成。APS面向包括整个供应链的可用计划和决策支持，是一个分级的自上而下的系统，在时间上跨越了长期计划、中期计划、短期计划；在功能上涵盖了从联盟战略、产品预测到物料需求、生产调度；在决策支持方面包括整个生产组织从采购到最终销售的供应链生产的全过程的信息系统。
+与传统的企业资源计划(Enterprise resource planning，ERP)系统相比，APS[20]能制定更为精确的生产计划，并且支持基于供应链的企业合作生产模式，所以得到了越来越多的重视和应用。研究和应用APS对提高我国制造业生产质量和竞争能力，实现企业信息化水平的跨越式发展具有重要意义。
+目前，对APS主要的应用研究方向包括以下几个方面。运作为中心的物料清单(Bill of materials，BOM)技术。APS集成了传统的BOM和工艺路线，能把旧的BOM中的项目和工艺路线表中资源相关联。复杂不确定生产环境下优化调度警在实际生产环境中制订可行的，有效的生产作业计划，综合调度工厂及社会的生产资源，从而达到生产、财务和交货期等目标。
+动态生产系统仿真技术。主要通过逻辑描述实际生产的过程建立生产系统的仿真模型。通过动态的模拟生产系统的运行，利用试验的方法找到计划和调度的可行解或者较优解。
+数据模型耦合与系统集成。APS需要企业内部其他信息系统的支持和互动，比如和财务信息系统的集成，与车间层控制系统(Manufacturing execution system．MES)的集成，与ERP的集成。马跃[21]等人，研究了先进生产计划在钢铁企业的生产运行中的应用，提出了基于MRPII 与 JIT相结合的特钢行业生产管理模式。
+
+5  计划执行与生产控制
+生产计划与控制是制造企业的核心内容，编制满足需求数量和交货期的计划，监督和控制该计划的实现，从而在满足需求的前提下，最合理地分配资源、最经济地生产是生产计划与控制的主要活动。
+现代生产计划与控制主要有五种模式，体现在以制造资源计划为代表的推式生产方式，以丰田准时生产、精益制造为思想的拉式生产方式、约束理论(Theory of constraints，TOC)为基础的生产方式、敏捷制造为基础的灵活响应生产方式和以可重构制造为基础的自适应生产方式。其中，精益制造、敏捷制造和可重构制造得到了越来越多的重视和研究。这些生产模式已经得到广泛重视和研究。
+目前计划执行与控制的主要研究方向包括以下几个方面。
+混合生产系统。根据工厂的实际情况，将推式
+生产、拉式生产或者TOC理论结合起来，取长补短，建立混合生产系统将有助于改善生产组织状况。
+动态自适应看板系统。动态自适应看板系统可以根据用户需求和系统状态的改变自动调整看板的数量以及瓶颈资源缓冲的大小，有效地降低工厂中在制品的数量和生产的成本。
+瓶颈资源动态调度。生产系统某些不确定事件发生会造成系统的瓶颈漂移。所以，在生产系统状态改变时，如何及时地、动态地对系统重新调度是今后研究的重点之一。
+多目标优化的智能算法。根据相互冲突的目标建立生产系统的多目标优化模型，可以较好地平衡各个目标问的冲突，使系统总体达到最优。
+
+6  结论
+从阅读的文献来看，人们对制造业中的生产计划与控制方法的问题研究得比较多，也有不少实际应用的商品化软件，但是对于离散制造工业中的生产计划问题研究得还不是很多的。离散工业基础自动化水平相对较低，离散程度较高，也较难组织。由于生产制造过程中的很多问题都是非线性(NP)难问题，所以不可能在短时间内取得突破，我们可以在原有的算法的基础上，继续寻找能够获取最有解得更快更好的算法。
+综上所述，我们应该从这几方面去努力：
+（1）理论和实践紧密结合
+前面已经提到，在调度理论和实际应用之间存在鸿沟，为了更好地在企业中应用，就需要计算机专家、调度专家和现场调度员进行紧密的合作，研究并开发面向实际生产计划的理论和应用软件。
+（2）优先选取智能调度方法
+基于人工智能、计算智能和实时智能的智能调度方法已经显示出其优越性，应该优先选取这些方法，如实时MAS、模糊神经网络、遗传算法等. 当然也并不排斥与其他方法一起使用.
+（3）加强基于反馈控制的实时调度方法在生产调度领域的研究和应用目前基于反馈控制的实时调度方法的研究还主要集中在处理器调度方面，对其在生产调度领域的应用研究还基本没有，因此建议在这方面开展一些有价值的研究，以最终应用到实际生产调度中。
+
+参  考  文  献(五号，黑体)
+ [1]	王桂从. 面向订单装配的机械产品柔性生产计划及控制技术研究[D]. 山东大学, 2008.
+WANG GuiCong. Study on Flexible Production Planning and Control Technologies of Mechanical Products in an Assembly-to-Order Environment[D]. Shandong University, 2008.
+ [2]	郭佳. 面向订单生产环境下的混合生产计划与控制研究[D]. 中山大学, 2010.
+	GUO Jia. Research on hybrid production planning and control in order oriented production environment [D]. Zhongshan University, 2010
+ [3]	史晶晶. 面向订单装配型生产企业收益管理模型研究[D]. 杭州电子科技大学, 2013.
+	SHI Jingjing. Research on revenue management model of order oriented manufacturing enterprise [D]. Hangzhou Dianzi University, 2013
+[4]	Mohebbi E, Choobineh F. The impact of component commonality in an assemble-to-order environment under supply and demand uncertainty[J]. Omega, 2005, 33(6): 472-482.
+[5] 	Shah J, Avittathur B. The retailer multi-item inventory problem with demand cannibalization and substitution[J]. International Journal of Production Economics, 2007, 106(1): 104-114.
+[6]	 程控, 革扬. MRP II/ERP 原理与应用/MRP II/ERP principles and applications[M]. 清华大学出版社有限公司, 2006.
+CHENG Kong, GE Yang. MRP II/ERP principles and applications[M]. Tsinghua University publishing company, 2006.
+[7]	姜思杰, 徐晓飞, 战德臣, 杨波. 大型单件小批量生产的计划与控制模式.计算机集成制造. 2001,2.2(7):1.5.
+	JIANG Sijie, XU Xiaofei, ZHAN Dechen, YANG Bo. Planning and control mode for large single small batch production. Computer integrated manufacturing. 2001,2.2 (7): 1.5.
+[8]	潘家招, 曹德弼等. 现代生产管理学(第二版)[M]. 北京:清华大学出版社, 2003,6:134-140
+PAN Jiazhao, CAO Debi. Modern production management (Second Edition) [M]. Beijing: Tsinghua University press, 2003,6:134-140
+[9]	郝刚, 吴功宜. 根据日产量动态调整批量和提前期的物料需求计划研究[J]. 计算机集成制造系统, 2005,11(9):1267-1271
+HAO Gang, WU Gongyi. According to the production batch dynamic adjustment and the early period of MRP of [J]. computer integrated manufacturing systems, 2005,11 (9): 1267-1271
+[10]	Womack J P, Jones D T, Roos D. The machine that changed the world: The story of lean production--Toyota's secret weapon in the global car wars that is now revolutionizing world industry[M]. Simon and Schuster, 2007.
+[11]	Lamming R. Beyond partnership: strategies for innovation and lean supply[M]. London: Prentice Hall, 1993.
+[12]	梁红月. 丰田生产方式的起源与演化[J]. 中国质量, 2004(4):36-38
+LIANG Hongyue. The origin and evolution of the mode of production of TOYOTA [J]. China quality, 2004 (4): 36-38
+[13]	W.C.Benton，HojungShin. Manufaeturing Planning and Control: The Evolution of MRP and JIT Integration. European Journal of Operational Researeh, 1998, 110:411-440.
+[14]	齐二石, 邓修权, 霍艳芳, 潘涛. 装配型拉动生产系统离散事件模型及扰动分析[J]. 系统工程学报, 1998, 13(4):52-57.
+QI Ershi, DENG Xiuquan, HUO Yanfang, PAN Tao. Discrete event model and perturbation analysis of assembly type pulling production system [J]. Journal of systems engineering, 1998, 13 (4): 52-57.
+[15]	潘涛. JIT环境下的拉动生产系统建模及其应用研究[D]. 天津:天津大学硕士学位论文, 1996.
+PAN Tao. Research on Modeling and application of pull production system under JIT environment [D]. Tianjin: Master Thesis of Tianjin University, 1996
+[16]	栗贺友, 郝建男. 看板管理运行过程中调控方法的研究[J]. 工业工程与管理, 2003(8):72-74.
+LI Heyou, HAO Jiannan. Study on control methods in the process of Kanban management[J]. industrial engineering and management, 2003 (8): 72-74.
+[17]	门田安弘著, 王瑞珠, 李莹译. 新丰田生产方式[M]. 河北:河北大学出版社, 2008(9):55-58.
+Monda Yasuhiro, WANG Ruizhu, LI Ying. The new TOYOTA production system [M]. Hebei: Hebei University press, 2008 (9): 55-58.
+[18]	朱培军, 刘飞, 曹乐. MRPⅡ、JIT与TOC集成生产管理模式研究及应用[J]. 现代制造工程, 2008,(09):55-58.
+ZHU Peijun, LIU Fei, CAO Le. Research and application of integrated production management mode of MRP II, JIT and [J]. TOC modern manufacturing engineering, 2008, (09): 55-58.
+[19]	ROBERT S．Achieving competitive advantage through supply chain management-advanced planning and scheduling system[R]．Sunnyvale：VITRIA Technology，INC．2000．
+[20]	PSLX White Paper. Chapter I conceptual definition of APS[EBOL]. http://www.pslx.org/en/．
+ [21]	马跃, 徐然, 刘晓冰. 钢铁企业先进生产计划和实时生产调度技术的研究[J]. 制造业自动化, 2003, 25(3):35-39. 
+MA Yue, XU Ran, LIU Xiaobing. Research on advanced production planning and real time production scheduling in iron and steel enterprise [J]. manufacturing automation, 2003, 25 (3): 35-39.
+ [21]	Rees L P, Philipoom P R, Taylor III B W, et al. Dynamically adjusting the number of kanbans in a just-in-time production system using estimated values of leadtime[J]. IIE transactions, 1987, 19(2): 199-207.
+[22]	Price. W , Gravel, M. &Nsakanda,eta1. Review of optimizationmodels of kanbanbased production systems[J]. European Journal of Operational Research, 1994, (75):1—12
+[23]	Akturk M S, Erhun F. An overview of design and operational issues of kanban systems[J]. International Journal of Production Research, 1999, 37(17): 3859-3881.
+[24]	Sarker B R, Balan C V. Operations planning for a multi-stage kanban system[J]. European Journal of Operational Research, 1999, 112(2): 284-303.
+[25]	Tserng H P, Lin W Y. Developing an electronic acquisition model for project scheduling using XML-based information standard[J]. Automation in construction, 2003, 12(1): 67-95.
+[26]	Catron B A, Ray S R. ALPS: A language for process specification[J]. International Journal of Computer Integrated Manufacturing, 1991, 4(2): 105-113.
+[27]	CARRELLA A, BRENNAN M J, WATERS T P. Static analysis of a passive vibration isolator with quasi-zero-stiffness characteristic[J]. Journal of Sound and Vibration, 2007, 301(3)：678-689.
+[28]	Gruninger M, Tissot F, Valois J, et al. The process specification language (PSL) overview and version 1.0 specification[M]. US Department of Commerce, Technology Administration, National Institute of Standards and Technology, 2000.
+
+非英文的参考文献采用非英文、英文双语形式
+  
+作者简介(六号，黑体)：文波，男，1992年出生，硕士研究生。主要研究方向为工业与制造系统工程。(六号，宋体)
+E-mail：zuoan@buaa.edu.cn
+ 
+
